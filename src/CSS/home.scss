@@ -1,0 +1,15 @@
+.info-desc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    article{
+        width: 500px;
+        height: 300px;
+    }
+    img{
+        width: 500px;
+        height: 300px;
+    }
+}
