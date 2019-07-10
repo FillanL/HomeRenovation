@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <footer>
                 
-                 &copy; 2019 SonnyWorks & Co <span></span> Tel. 718-999-999  *Fax. 718-999-999 <span></span> New York, NY 10342
+                 &copy; 2019 SonnyWorks & Co <span>|</span> &#x25AA; Tel. 718-999-999  &#x25AA; Fax. 718-999-999 <span>|</span> New York, NY 10342
                 
             </footer>
         )
