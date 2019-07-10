@@ -6,6 +6,7 @@ import Home from './Components/home'
 import Contact from './Components/Contact'
 
 import './App.css';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/contact' component={Contact}/>
       </Switch>
-
+      <Footer/>
     </div>
   );
 }

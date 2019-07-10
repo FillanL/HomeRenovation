@@ -6,12 +6,13 @@
     height: 300px;
     margin-left: 10%;
     margin-bottom: 25px;
-    background-color: rgba(151, 42, 42, 0.1);
+    // background-color: rgba(151, 42, 42, 0.1);
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     article{
         position: relative;
+        top: 10%;
         width: 95%;
         height: 300px;
         padding: 10px;
