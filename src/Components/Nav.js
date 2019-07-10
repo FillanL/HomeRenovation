@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+import '../CSS/nav.scss'
 
 class Nav extends Component {
     render() {
         return (
             <nav>
                 <ul>
-                    <span> Logo</span>
+                    <Link to="/">
+                    <span id="logo"> Logo</span>
+                    </Link>
                     <li>
                         <Link to="/aboutUs" >
                             COMPANY
@@ -28,7 +31,7 @@ class Nav extends Component {
                         </Link>
                     </li>
                     <li>
-                        <Link to="contact">
+                        <Link to="/contact">
                             CONTACT
                         </Link>
                     </li>

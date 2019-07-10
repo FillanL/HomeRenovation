@@ -3,9 +3,7 @@ import {withRouter, Route, Switch} from 'react-router-dom'
 
 import Nav from './Components/Nav'
 import Home from './Components/home'
-// import Projects from './Compoents/projects'
-
-
+import Contact from './Components/Contact'
 
 import './App.css';
 
@@ -17,8 +15,8 @@ function App() {
       </header>
       <Nav/>
       <Switch>
-        <Route path='/' component={Home} />
-        
+        <Route exact path='/' component={Home} />
+        <Route exact path='/contact' component={Contact}/>
       </Switch>
 
     </div>

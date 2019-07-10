@@ -6,7 +6,10 @@ class home extends Component {
         return (
             <div>
                 <div className="info-desc">
+                    {/* <div className="blur"> */}
                     <img src="https://source.unsplash.com/random" alt="stuf"/>
+                    {/* </div> */}
+
                     <article>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga laborum. Tempore vero maxime recusandae ullam, illum cupiditate illo, quo necessitatibus ipsa fuga cum. Nostrum officiis reiciendis nemo dolor id! Tempore vero maxime recusandae ullam, illum cupiditate illo, quo necessitatibus ipsa fuga cum. Nostrum officiis reiciendis nemo dolor id!
                     </article>

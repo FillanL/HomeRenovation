@@ -1,0 +1,25 @@
+nav {
+    text-align: center;
+    ul{
+        #logo{
+            position: absolute;
+            // float: left;
+            left: 10px;
+            // position: relative;
+            // margin-left: 10px;
+            color: red;
+        }
+    }
+    ul li{
+        display: inline;
+        margin: 0 10px;
+        list-style: none;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+}
