@@ -10,10 +10,7 @@ class Blog extends Component {
 
             </aside> */}
             <div id="grid-wrapper">
-                {/* <div className="first"></div> */}
-                {/* <div className="sml"></div> */}
-                <div className="sml"></div>
-                <div className="sml"></div>
+                <div className="long"></div>
                 <div className="sml"></div>
                 <div className="sml"></div>
                 <div className="last"></div>
@@ -21,7 +18,7 @@ class Blog extends Component {
             <div id="grid-wrapper2">
                 <div className="sml"></div>
                 <div className="sml"></div>
-                <div className="sml"></div>
+                <div className="long"></div>
                 <div className="first"></div>
                 <div className="sml"></div>
                 <div className="sml"></div>

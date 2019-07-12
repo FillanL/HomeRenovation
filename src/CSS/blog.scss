@@ -25,6 +25,11 @@ h2{
         background-color: rgb(245, 149, 114);
         height: calc((400-20)/3);
     }
+    .long{
+        background-color: rgb(245, 149, 114);
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
 }
 #grid-wrapper2{
     display: grid;
@@ -44,10 +49,16 @@ h2{
         grid-column-start: 2;
         grid-column-end: 4;
         background-color: rgb(136, 217, 255);
-
+        
     }
     .sml{
         background-color: rgb(245, 149, 114);
         height: calc((600-30)/3);
+    }
+    .long{
+        background-color: rgb(245, 149, 114);
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
 }

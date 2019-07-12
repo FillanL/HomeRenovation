@@ -27,7 +27,7 @@ class Nav extends Component {
                     </li> */}
                     <li>
                         <Link to="/articles">
-                            HOW TO'S
+                            HOW TO/Guides
                         </Link>
                     </li>
                     <li>

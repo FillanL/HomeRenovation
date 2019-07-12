@@ -6,7 +6,7 @@ import Home from './Components/home'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer';
 import Blog from './Components/Blog'
-
+import Projects from './Components/projects'
 import './App.css';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <div className="wrapper">
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/projects' component={Projects}/>
           <Route exact path='/contact' component={Contact}/>
           <Route exact path='/articles' component={Blog}/>
         </Switch>

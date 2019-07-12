@@ -1,37 +1,118 @@
-.info-desc{
-    display: grid;
-    grid-template-columns: repeat(2, calc(50%));
-    grid-column-gap: 5px;
-    width: 80%;
-    height: 300px;
-    margin-left: 10%;
-    margin-bottom: 25px;
-    // background-color: rgba(151, 42, 42, 0.1);
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*{
+    margin: 0;
+    padding: 0;
+}
 
-    article{
+// @media all and (min-width:900px){
+
+    // featues section
+    .company-features{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        grid-column-gap: 10px;
+        width: 90%;
+        height: 100px;
+        margin-left: 5%;
+        margin-bottom: 50px;
+    
+        .features-card{
+            padding: 5px;
+            position: relative;
+            border: 1px solid black; 
+        }
+    }
+    
+    // offerings section
+    .info-desc{
         position: relative;
-        top: 10%;
-        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(2, calc(50%));
+        grid-column-gap: 5px;
+        width: 80%;
         height: 300px;
+        margin-left: 10%;
+        margin-bottom: 25px;
+        // background-color: rgba(151, 42, 42, 0.1);
         padding: 10px;
-    }
-    img{
-        text-align: center;
-        width: 95%;
-        height: 300px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    img:hover{
-        box-shadow: 7px 8px 4px  rgba(54, 54, 54, 0.2);
-        cursor: pointer;
-    }
-    // .blur{
-    //     position: absolute;
-    //     background-color: rgba(0, 0, 0, 0.40);
-    //     width: 500px;
-    //     height: 300px;
-    //     z-index: 221;
+    
+        article{
+            position: relative;
+            top: 10%;
+            width: 95%;
+            height: 300px;
+            padding: 10px;
+        }
+        img{
+            text-align: center;
+            width: 95%;
+            height: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        img:hover{
+            box-shadow: 7px 8px 4px  rgba(54, 54, 54, 0.2);
+            cursor: pointer;
+        }  
     // }
 }
+
+@media all and (max-width: 600px){
+    // featues section
+        .company-features{
+           position: relative;
+            display: grid;
+            height: auto;
+            grid-template-columns: repeat(1 ,1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-row-gap: 10px;
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 50px;
+        
+            .features-card{
+                width: 100%;
+                padding: 5px;
+                position: relative;
+                border: 1px solid black; 
+            }
+        }
+
+        // offerings section
+    .info-desc{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        grid-row-gap: 5px;
+        width: 80%;
+        height: 300px;
+        margin-left: 10%;
+        margin-bottom: 25px;
+        // background-color: rgba(151, 42, 42, 0.1);
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+        article{
+            position: relative;
+            top: 10%;
+            width: 95%;
+            height: 300px;
+            padding: 10px;
+        }
+        img{
+            display: none;
+            text-align: center;
+            width: 95%;
+            height: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        img:hover{
+            box-shadow: 7px 8px 4px  rgba(54, 54, 54, 0.2);
+            cursor: pointer;
+        }  
+    // }
+}
+
+    }
+
+
