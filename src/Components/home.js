@@ -5,6 +5,12 @@ class home extends Component {
     render() {
         return (
             <div>
+                <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                width="100%"
+                height="400px" 
+                alt="hed"
+                />
+                
                 <div className="company-features">
                     <div className="features-card">
                         <h2>
